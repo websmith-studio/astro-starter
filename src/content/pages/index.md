@@ -3,7 +3,9 @@ _schema: page
 title: Home
 seo:
   page_description: >-
-    A starting point for those looking to build a website with Astro, using Bookshop components in CloudCannon. Create your own copy, and start creating your own components to use in the CloudCannon CMS.
+    A starting point for those looking to build a website with Astro, using
+    Bookshop components in CloudCannon. Create your own copy, and start creating
+    your own components to use in the CloudCannon CMS.
   canonical_url:
   featured_image:
   featured_image_alt:
@@ -12,13 +14,15 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: hero
-    background_color: '#ffffff'
+    background_color: '#faaa8f'
     heading:
       heading_text: Astro Bookshop Starter
       heading_gradient_color: '#a0a2ff'
     subheading:
       text: >-
-        A starting point for those looking to build a website with Astro, using Bookshop components in CloudCannon. Create your own copy, and start creating your own components to use in the CloudCannon CMS.
+        A starting point for those looking to build a website with Astro, using
+        Bookshop components in CloudCannon. Create your own copy, and start
+        creating your own components to use in the CloudCannon CMS.
       color: '#393939'
     image:
       image_path: /src/assets/images/featured-image-5.jpg
@@ -29,14 +33,14 @@ content_blocks:
     buttons:
       - text: GitHub
         icon: Github
-        link: 'https://www.cloudcannon.com'
+        link: https://www.cloudcannon.com
         border_only: false
         background_color: '#034ad8'
         hover_brightness: 0.85
         text_color: '#ffffff'
       - text: CloudCannon
         icon: CloudCannon
-        link: 'https://www.cloudcannon.com'
+        link: https://www.cloudcannon.com
         border_only: true
         background_color: '#034ad8'
         hover_brightness: 0.95
@@ -53,9 +57,9 @@ content_blocks:
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum.
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
       color: '#393939'
     image: /images/transparent-bg/undraw-hello.svg
     image_alt:
