@@ -85,14 +85,14 @@ spec:
     - content_blocks
   label: Example Component
   description: A short description.
-  icon: 'cottage'
+  icon: "cottage"
   tags:
     - Example
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  background_color: '#ffffff'
-  text_color: '#000000'
+  background_color: "#ffffff"
+  text_color: "#000000"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -137,14 +137,15 @@ An Astro `<Image />` will process an image in your src/assets/images folder, and
   width="1600"
   height="900"
   loading="lazy"
-  decoding="async" />
+  decoding="async"
+/>
 ```
 
 This template also demonstrates how to set [`uploads` paths](https://cloudcannon.com/documentation/articles/adjusting-the-uploads-path/) on an input level, to allow for both processed and unprocessed images on one site.
 
 On this template, by default, image inputs are opened at `public/images`, meaning they are unprocessed images.
 
-Components that use the Astro ```<Image />``` component are configured so the image source input opens at src/assets/images, which are images to be processed and optimized on build.
+Components that use the Astro `<Image />` component are configured so the image source input opens at src/assets/images, which are images to be processed and optimized on build.
 
 ### SEO Controls
 
@@ -169,8 +170,8 @@ To remove Tailwind CSS:
 2. Remove mentions of Tailwind from your `astro.config.mjs`
 
 ```mjs
-import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   // ...
